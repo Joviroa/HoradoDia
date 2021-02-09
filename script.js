@@ -6,7 +6,6 @@ var msg= document.querySelector('div#msg')      //mensagem acima da imagem//
 var img= document.querySelector('img#imagem')   //imagem//
 var data= new Date()   //pega a data//
 var hora= data.getHours() //pega a hora//
-hora=8
 msg.innerHTML = `Agora são ${hora} horas.`
 
 if(hora>12 && hora<18){
