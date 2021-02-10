@@ -8,11 +8,11 @@ var data= new Date()   //pega a data//
 var hora= data.getHours() //pega a hora//
 msg.innerHTML = `Agora são ${hora} horas.`
 
-if(hora>12 && hora<18){
+if(hora>=12 && hora<18){
     titulo.innerHTML= 'Boa Tarde'
     bg.style.background= 'rgb(97, 60, 11)'
     img.src= 'imagens/tarde.png'
-}else if(hora>18){
+}else if(hora>=18){
     titulo.innerHTML= 'Boa Noite'
     bg.style.background= 'rgb(46, 46, 46)'
     img.src= 'imagens/noite.png'
